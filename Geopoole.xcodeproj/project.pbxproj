@@ -22,7 +22,7 @@
 		10A7F4311901C5F700437774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F4101901C5F600437774 /* UIKit.framework */; };
 		10A7F4391901C5F700437774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10A7F4371901C5F700437774 /* InfoPlist.strings */; };
 		10A7F43B1901C5F700437774 /* GeopooleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A7F43A1901C5F700437774 /* GeopooleTests.m */; };
-		10A7F4451901C66000437774 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F4441901C66000437774 /* MapKit.framework */; };
+		10A7F4471901C8BB00437774 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F4461901C8BB00437774 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		10A7F4361901C5F700437774 /* GeopooleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeopooleTests-Info.plist"; sourceTree = "<group>"; };
 		10A7F4381901C5F700437774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10A7F43A1901C5F700437774 /* GeopooleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeopooleTests.m; sourceTree = "<group>"; };
-		10A7F4441901C66000437774 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapKit.framework; sourceTree = "<group>"; };
+		10A7F4461901C8BB00437774 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A7F4471901C8BB00437774 /* MapKit.framework in Frameworks */,
 				10A7F40F1901C5F600437774 /* CoreGraphics.framework in Frameworks */,
 				10A7F4111901C5F600437774 /* UIKit.framework in Frameworks */,
-				10A7F4451901C66000437774 /* MapKit.framework in Frameworks */,
 				10A7F40D1901C5F600437774 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,7 +106,7 @@
 		10A7F40B1901C5F600437774 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10A7F4441901C66000437774 /* MapKit.framework */,
+				10A7F4461901C8BB00437774 /* MapKit.framework */,
 				10A7F40C1901C5F600437774 /* Foundation.framework */,
 				10A7F40E1901C5F600437774 /* CoreGraphics.framework */,
 				10A7F4101901C5F600437774 /* UIKit.framework */,
