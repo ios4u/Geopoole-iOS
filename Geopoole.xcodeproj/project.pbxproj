@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10977489190439A4008A7101 /* Museo-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10977486190439A4008A7101 /* Museo-heavy.otf */; };
+		1097748B190439A4008A7101 /* Museo-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10977488190439A4008A7101 /* Museo-medium.otf */; };
+		1097748D19043C1F008A7101 /* Montserrat-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1097748C19043C1F008A7101 /* Montserrat-medium.otf */; };
 		10A7F40D1901C5F600437774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F40C1901C5F600437774 /* Foundation.framework */; };
 		10A7F40F1901C5F600437774 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F40E1901C5F600437774 /* CoreGraphics.framework */; };
 		10A7F4111901C5F600437774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F4101901C5F600437774 /* UIKit.framework */; };
@@ -23,6 +26,8 @@
 		10A7F4391901C5F700437774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10A7F4371901C5F700437774 /* InfoPlist.strings */; };
 		10A7F43B1901C5F700437774 /* GeopooleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A7F43A1901C5F700437774 /* GeopooleTests.m */; };
 		10A7F4471901C8BB00437774 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F4461901C8BB00437774 /* MapKit.framework */; };
+		10FAA8391902BFA700104A58 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FAA8381902BFA700104A58 /* FacebookSDK.framework */; };
+		10FAA83C1902C0FB00104A58 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA83B1902C0FB00104A58 /* AccountManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10977486190439A4008A7101 /* Museo-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo-heavy.otf"; sourceTree = "<group>"; };
+		10977488190439A4008A7101 /* Museo-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo-medium.otf"; sourceTree = "<group>"; };
+		1097748C19043C1F008A7101 /* Montserrat-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-medium.otf"; sourceTree = "<group>"; };
 		10A7F4091901C5F600437774 /* Geopoole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geopoole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A7F40C1901C5F600437774 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10A7F40E1901C5F600437774 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,6 +65,9 @@
 		10A7F4381901C5F700437774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10A7F43A1901C5F700437774 /* GeopooleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeopooleTests.m; sourceTree = "<group>"; };
 		10A7F4461901C8BB00437774 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		10FAA8381902BFA700104A58 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		10FAA83A1902C0FB00104A58 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		10FAA83B1902C0FB00104A58 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10A7F4471901C8BB00437774 /* MapKit.framework in Frameworks */,
+				10FAA8391902BFA700104A58 /* FacebookSDK.framework in Frameworks */,
 				10A7F40F1901C5F600437774 /* CoreGraphics.framework in Frameworks */,
 				10A7F4111901C5F600437774 /* UIKit.framework in Frameworks */,
 				10A7F40D1901C5F600437774 /* Foundation.framework in Frameworks */,
@@ -84,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1097747D190438AB008A7101 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1097748C19043C1F008A7101 /* Montserrat-medium.otf */,
+				10977486190439A4008A7101 /* Museo-heavy.otf */,
+				10977488190439A4008A7101 /* Museo-medium.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		10A7F4001901C5F600437774 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +128,7 @@
 		10A7F40B1901C5F600437774 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10FAA8381902BFA700104A58 /* FacebookSDK.framework */,
 				10A7F4461901C8BB00437774 /* MapKit.framework */,
 				10A7F40C1901C5F600437774 /* Foundation.framework */,
 				10A7F40E1901C5F600437774 /* CoreGraphics.framework */,
@@ -118,6 +141,8 @@
 		10A7F4121901C5F600437774 /* Geopoole */ = {
 			isa = PBXGroup;
 			children = (
+				10FAA83A1902C0FB00104A58 /* AccountManager.h */,
+				10FAA83B1902C0FB00104A58 /* AccountManager.m */,
 				10A7F41B1901C5F600437774 /* AppDelegate.h */,
 				10A7F41C1901C5F600437774 /* AppDelegate.m */,
 				10A7F41E1901C5F600437774 /* Main_iPhone.storyboard */,
@@ -125,6 +150,7 @@
 				10A7F4241901C5F600437774 /* ViewController.h */,
 				10A7F4251901C5F600437774 /* ViewController.m */,
 				10A7F4271901C5F600437774 /* Images.xcassets */,
+				10FAA83D1902CED000104A58 /* Resources */,
 				10A7F4131901C5F600437774 /* Supporting Files */,
 			);
 			path = Geopoole;
@@ -157,6 +183,14 @@
 				10A7F4371901C5F700437774 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10FAA83D1902CED000104A58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1097747D190438AB008A7101 /* Fonts */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				10A7F4231901C5F600437774 /* Main_iPad.storyboard in Resources */,
+				1097748B190439A4008A7101 /* Museo-medium.otf in Resources */,
 				10A7F4281901C5F600437774 /* Images.xcassets in Resources */,
+				10977489190439A4008A7101 /* Museo-heavy.otf in Resources */,
 				10A7F4201901C5F600437774 /* Main_iPhone.storyboard in Resources */,
+				1097748D19043C1F008A7101 /* Montserrat-medium.otf in Resources */,
 				10A7F4171901C5F600437774 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +297,7 @@
 				10A7F4261901C5F600437774 /* ViewController.m in Sources */,
 				10A7F41D1901C5F600437774 /* AppDelegate.m in Sources */,
 				10A7F4191901C5F600437774 /* main.m in Sources */,
+				10FAA83C1902C0FB00104A58 /* AccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +437,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/jrkolsby/Documents/GitHub/Geopoole,
+					/Users/jrkolsby/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Geopoole/Geopoole-Prefix.pch";
@@ -416,6 +455,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/jrkolsby/Documents/GitHub/Geopoole,
+					/Users/jrkolsby/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Geopoole/Geopoole-Prefix.pch";
@@ -486,6 +526,7 @@
 				10A7F4401901C5F700437774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10A7F4411901C5F700437774 /* Build configuration list for PBXNativeTarget "GeopooleTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +535,7 @@
 				10A7F4431901C5F700437774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

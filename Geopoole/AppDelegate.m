@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+# import <FacebookSDK/FacebookSDK.h>
 
 @implementation AppDelegate
 
@@ -14,6 +15,17 @@
 {
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; // Light status bar
+    [FBLoginView class];
+    
+    for (NSString* family in [UIFont familyNames])
+    {
+        NSLog(@"%@", family);
+        
+        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+        {
+            NSLog(@"  %@", name);
+        }
+    }
     return YES;
 }
 							
