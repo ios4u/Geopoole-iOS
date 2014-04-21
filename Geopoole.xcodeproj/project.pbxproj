@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1052801D1904E0FC0083A4EF /* RoleSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1052801C1904E0FC0083A4EF /* RoleSelectionViewController.m */; };
+		105280201904E1650083A4EF /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1052801F1904E1650083A4EF /* MapViewController.m */; };
+		105280231904E1720083A4EF /* PooleListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105280221904E1720083A4EF /* PooleListingViewController.m */; };
+		105280261904E17B0083A4EF /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105280251904E17B0083A4EF /* SplashScreenViewController.m */; };
+		106373F81904600900795E24 /* FBCustomLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106373F71904600900795E24 /* FBCustomLoginView.m */; };
 		10977489190439A4008A7101 /* Museo-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10977486190439A4008A7101 /* Museo-heavy.otf */; };
 		1097748B190439A4008A7101 /* Museo-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10977488190439A4008A7101 /* Museo-medium.otf */; };
 		1097748D19043C1F008A7101 /* Montserrat-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1097748C19043C1F008A7101 /* Montserrat-medium.otf */; };
@@ -18,7 +23,6 @@
 		10A7F41D1901C5F600437774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A7F41C1901C5F600437774 /* AppDelegate.m */; };
 		10A7F4201901C5F600437774 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A7F41E1901C5F600437774 /* Main_iPhone.storyboard */; };
 		10A7F4231901C5F600437774 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A7F4211901C5F600437774 /* Main_iPad.storyboard */; };
-		10A7F4261901C5F600437774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A7F4251901C5F600437774 /* ViewController.m */; };
 		10A7F4281901C5F600437774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A7F4271901C5F600437774 /* Images.xcassets */; };
 		10A7F42F1901C5F700437774 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F42E1901C5F700437774 /* XCTest.framework */; };
 		10A7F4301901C5F700437774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A7F40C1901C5F600437774 /* Foundation.framework */; };
@@ -41,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1052801B1904E0FC0083A4EF /* RoleSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleSelectionViewController.h; sourceTree = "<group>"; };
+		1052801C1904E0FC0083A4EF /* RoleSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleSelectionViewController.m; sourceTree = "<group>"; };
+		1052801E1904E1650083A4EF /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		1052801F1904E1650083A4EF /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		105280211904E1720083A4EF /* PooleListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooleListingViewController.h; sourceTree = "<group>"; };
+		105280221904E1720083A4EF /* PooleListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooleListingViewController.m; sourceTree = "<group>"; };
+		105280241904E17B0083A4EF /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		105280251904E17B0083A4EF /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		106373F61904600900795E24 /* FBCustomLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCustomLoginView.h; sourceTree = "<group>"; };
+		106373F71904600900795E24 /* FBCustomLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCustomLoginView.m; sourceTree = "<group>"; };
 		10977486190439A4008A7101 /* Museo-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo-heavy.otf"; sourceTree = "<group>"; };
 		10977488190439A4008A7101 /* Museo-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo-medium.otf"; sourceTree = "<group>"; };
 		1097748C19043C1F008A7101 /* Montserrat-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-medium.otf"; sourceTree = "<group>"; };
@@ -56,8 +70,6 @@
 		10A7F41C1901C5F600437774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		10A7F41F1901C5F600437774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		10A7F4221901C5F600437774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		10A7F4241901C5F600437774 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10A7F4251901C5F600437774 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10A7F4271901C5F600437774 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		10A7F42D1901C5F700437774 /* GeopooleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeopooleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A7F42E1901C5F700437774 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -141,14 +153,22 @@
 		10A7F4121901C5F600437774 /* Geopoole */ = {
 			isa = PBXGroup;
 			children = (
+				105280241904E17B0083A4EF /* SplashScreenViewController.h */,
+				105280251904E17B0083A4EF /* SplashScreenViewController.m */,
+				105280211904E1720083A4EF /* PooleListingViewController.h */,
+				105280221904E1720083A4EF /* PooleListingViewController.m */,
+				1052801B1904E0FC0083A4EF /* RoleSelectionViewController.h */,
+				1052801C1904E0FC0083A4EF /* RoleSelectionViewController.m */,
+				1052801E1904E1650083A4EF /* MapViewController.h */,
+				1052801F1904E1650083A4EF /* MapViewController.m */,
+				106373F61904600900795E24 /* FBCustomLoginView.h */,
+				106373F71904600900795E24 /* FBCustomLoginView.m */,
 				10FAA83A1902C0FB00104A58 /* AccountManager.h */,
 				10FAA83B1902C0FB00104A58 /* AccountManager.m */,
 				10A7F41B1901C5F600437774 /* AppDelegate.h */,
 				10A7F41C1901C5F600437774 /* AppDelegate.m */,
 				10A7F41E1901C5F600437774 /* Main_iPhone.storyboard */,
 				10A7F4211901C5F600437774 /* Main_iPad.storyboard */,
-				10A7F4241901C5F600437774 /* ViewController.h */,
-				10A7F4251901C5F600437774 /* ViewController.m */,
 				10A7F4271901C5F600437774 /* Images.xcassets */,
 				10FAA83D1902CED000104A58 /* Resources */,
 				10A7F4131901C5F600437774 /* Supporting Files */,
@@ -269,12 +289,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A7F4201901C5F600437774 /* Main_iPhone.storyboard in Resources */,
 				10A7F4231901C5F600437774 /* Main_iPad.storyboard in Resources */,
 				1097748B190439A4008A7101 /* Museo-medium.otf in Resources */,
-				10A7F4281901C5F600437774 /* Images.xcassets in Resources */,
 				10977489190439A4008A7101 /* Museo-heavy.otf in Resources */,
-				10A7F4201901C5F600437774 /* Main_iPhone.storyboard in Resources */,
 				1097748D19043C1F008A7101 /* Montserrat-medium.otf in Resources */,
+				10A7F4281901C5F600437774 /* Images.xcassets in Resources */,
 				10A7F4171901C5F600437774 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,10 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10A7F4261901C5F600437774 /* ViewController.m in Sources */,
+				106373F81904600900795E24 /* FBCustomLoginView.m in Sources */,
 				10A7F41D1901C5F600437774 /* AppDelegate.m in Sources */,
+				105280201904E1650083A4EF /* MapViewController.m in Sources */,
+				105280231904E1720083A4EF /* PooleListingViewController.m in Sources */,
 				10A7F4191901C5F600437774 /* main.m in Sources */,
+				105280261904E17B0083A4EF /* SplashScreenViewController.m in Sources */,
 				10FAA83C1902C0FB00104A58 /* AccountManager.m in Sources */,
+				1052801D1904E0FC0083A4EF /* RoleSelectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

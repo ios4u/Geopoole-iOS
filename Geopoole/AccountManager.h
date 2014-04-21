@@ -10,6 +10,10 @@
 
 @interface AccountManager : NSObject
 
+@property (assign) NSDictionary *accountDetails;
+
 + (AccountManager*)sharedInstance;
+
+- (NSDictionary *)login;
 
 @end

@@ -20,4 +20,14 @@
     return tempInstance;
 }
 
+- (NSDictionary *)login {
+    NSDictionary *temp = [[NSDictionary alloc] initWithObjectsAndKeys:@"key", @"test", nil];
+    return temp;
+}
+
+- (int)logout {
+    
+    return 0;
+}
+
 @end
