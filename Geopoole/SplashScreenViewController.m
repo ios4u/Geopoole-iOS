@@ -7,15 +7,13 @@
 //
 
 #import "SplashScreenViewController.h"
-#import "AccountManager.h"
+#import "UserHandler.h"
 
 @interface SplashScreenViewController ()
 
 @end
 
 @implementation SplashScreenViewController
-
-@synthesize logoLabel = _logoLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,20 +29,37 @@
     [super viewDidLoad];
     
     //Establish UI
-    _logoLabel.text = @"Geopoole";
-    [_logoLabel setTextAlignment:NSTextAlignmentCenter];
-    [_logoLabel setFont:[UIFont fontWithName:@"Museosans-700" size:25]];
-    [_logoLabel setTextColor:[UIColor colorWithRed:0.988 green:0.976 blue:0.976 alpha:1]];
+    self.logoLabel.text = @"Geopoole";
+    [self.logoLabel setTextAlignment:NSTextAlignmentCenter];
+    [self.logoLabel setFont:[UIFont fontWithName:@"Museosans-700" size:25]];
+    [self.logoLabel setTextColor:[UIColor colorWithRed:0.988 green:0.976 blue:0.976 alpha:1]];
+    
+    self.loginButton.readPermissions = @[@"basic_info"];
+    self.loginButton.delegate = self;
     
     //Check if logged in
-    if ([AccountManager sharedInstance].isLoggedIn) {
+    if ([UserHandler sharedInstance].isLoggedIn) {
         NSLog(@"Logged in");
     } else {
         NSLog(@"Not logged in");
     }
 }
 
+- (void)loginViewFetchedUserInfo:(FBLoginView *)loginView
+                            user:(id<FBGraphUser>)user {
+    //Logged in with Facebook
+    NSMutableDictionary *newUserDetails = [[NSMutableDictionary alloc] initWithObjectsAndKeys:user.id, @"id", user.name, @"name", nil];
+    [[UserHandler sharedInstance] login:newUserDetails];
+}
 
+- (void)loginViewShowingLoggedInUser:(FBLoginView *)loginView {
+    //Call segue
+}
+
+- (void)loginViewShowingLoggedOutUser:(FBLoginView *)loginView {
+    //Logged out
+    [[UserHandler sharedInstance] logout];
+}
 
 - (void)didReceiveMemoryWarning
 {

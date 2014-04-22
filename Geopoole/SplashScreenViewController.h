@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
 
-@interface SplashScreenViewController : UIViewController
+@interface SplashScreenViewController : UIViewController <FBLoginViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *logoLabel;
+@property (weak, nonatomic) IBOutlet FBLoginView *loginButton;
 
 
 
