@@ -7,12 +7,15 @@
 //
 
 #import "SplashScreenViewController.h"
+#import "AccountManager.h"
 
 @interface SplashScreenViewController ()
 
 @end
 
 @implementation SplashScreenViewController
+
+@synthesize logoLabel = _logoLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,8 +29,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    //Establish UI
+    _logoLabel.text = @"Geopoole";
+    [_logoLabel setTextAlignment:NSTextAlignmentCenter];
+    [_logoLabel setFont:[UIFont fontWithName:@"Museosans-700" size:25]];
+    [_logoLabel setTextColor:[UIColor colorWithRed:0.988 green:0.976 blue:0.976 alpha:1]];
+    
+    //Check if logged in
+    if ([AccountManager sharedInstance].isLoggedIn) {
+        NSLog(@"Logged in");
+    } else {
+        NSLog(@"Not logged in");
+    }
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {

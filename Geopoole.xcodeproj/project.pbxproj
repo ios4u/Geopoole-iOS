@@ -11,7 +11,8 @@
 		105280201904E1650083A4EF /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1052801F1904E1650083A4EF /* MapViewController.m */; };
 		105280231904E1720083A4EF /* PooleListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105280221904E1720083A4EF /* PooleListingViewController.m */; };
 		105280261904E17B0083A4EF /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105280251904E17B0083A4EF /* SplashScreenViewController.m */; };
-		106373F81904600900795E24 /* FBCustomLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106373F71904600900795E24 /* FBCustomLoginView.m */; };
+		1052802A19056EA30083A4EF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1052802819056EA30083A4EF /* logo.png */; };
+		1052802B19056EA30083A4EF /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1052802919056EA30083A4EF /* logo@2x.png */; };
 		10977489190439A4008A7101 /* Museo-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10977486190439A4008A7101 /* Museo-heavy.otf */; };
 		1097748B190439A4008A7101 /* Museo-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10977488190439A4008A7101 /* Museo-medium.otf */; };
 		1097748D19043C1F008A7101 /* Montserrat-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1097748C19043C1F008A7101 /* Montserrat-medium.otf */; };
@@ -53,8 +54,8 @@
 		105280221904E1720083A4EF /* PooleListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooleListingViewController.m; sourceTree = "<group>"; };
 		105280241904E17B0083A4EF /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
 		105280251904E17B0083A4EF /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
-		106373F61904600900795E24 /* FBCustomLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCustomLoginView.h; sourceTree = "<group>"; };
-		106373F71904600900795E24 /* FBCustomLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCustomLoginView.m; sourceTree = "<group>"; };
+		1052802819056EA30083A4EF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		1052802919056EA30083A4EF /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		10977486190439A4008A7101 /* Museo-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo-heavy.otf"; sourceTree = "<group>"; };
 		10977488190439A4008A7101 /* Museo-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo-medium.otf"; sourceTree = "<group>"; };
 		1097748C19043C1F008A7101 /* Montserrat-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-medium.otf"; sourceTree = "<group>"; };
@@ -108,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1052802719056E8B0083A4EF /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				1052802819056EA30083A4EF /* logo.png */,
+				1052802919056EA30083A4EF /* logo@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
 		1097747D190438AB008A7101 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,8 +171,6 @@
 				1052801C1904E0FC0083A4EF /* RoleSelectionViewController.m */,
 				1052801E1904E1650083A4EF /* MapViewController.h */,
 				1052801F1904E1650083A4EF /* MapViewController.m */,
-				106373F61904600900795E24 /* FBCustomLoginView.h */,
-				106373F71904600900795E24 /* FBCustomLoginView.m */,
 				10FAA83A1902C0FB00104A58 /* AccountManager.h */,
 				10FAA83B1902C0FB00104A58 /* AccountManager.m */,
 				10A7F41B1901C5F600437774 /* AppDelegate.h */,
@@ -208,6 +216,7 @@
 		10FAA83D1902CED000104A58 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1052802719056E8B0083A4EF /* Graphics */,
 				1097747D190438AB008A7101 /* Fonts */,
 			);
 			name = Resources;
@@ -293,8 +302,10 @@
 				10A7F4231901C5F600437774 /* Main_iPad.storyboard in Resources */,
 				1097748B190439A4008A7101 /* Museo-medium.otf in Resources */,
 				10977489190439A4008A7101 /* Museo-heavy.otf in Resources */,
+				1052802A19056EA30083A4EF /* logo.png in Resources */,
 				1097748D19043C1F008A7101 /* Montserrat-medium.otf in Resources */,
 				10A7F4281901C5F600437774 /* Images.xcassets in Resources */,
+				1052802B19056EA30083A4EF /* logo@2x.png in Resources */,
 				10A7F4171901C5F600437774 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106373F81904600900795E24 /* FBCustomLoginView.m in Sources */,
 				10A7F41D1901C5F600437774 /* AppDelegate.m in Sources */,
 				105280201904E1650083A4EF /* MapViewController.m in Sources */,
 				105280231904E1720083A4EF /* PooleListingViewController.m in Sources */,

@@ -10,10 +10,11 @@
 
 @interface AccountManager : NSObject
 
+@property (assign) BOOL isLoggedIn;
 @property (assign) NSDictionary *accountDetails;
 
 + (AccountManager*)sharedInstance;
 
-- (NSDictionary *)login;
+- (BOOL)isLoggedIn;
 
 @end

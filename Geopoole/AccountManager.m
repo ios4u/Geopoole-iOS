@@ -16,18 +16,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         tempInstance = [[self alloc] init];
+        tempInstance.isLoggedIn = NO;
     });
     return tempInstance;
-}
-
-- (NSDictionary *)login {
-    NSDictionary *temp = [[NSDictionary alloc] initWithObjectsAndKeys:@"key", @"test", nil];
-    return temp;
-}
-
-- (int)logout {
-    
-    return 0;
 }
 
 @end
