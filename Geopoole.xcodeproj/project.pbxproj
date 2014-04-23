@@ -12,9 +12,9 @@
 		105280261904E17B0083A4EF /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105280251904E17B0083A4EF /* SplashScreenViewController.m */; };
 		1052802A19056EA30083A4EF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1052802819056EA30083A4EF /* logo.png */; };
 		1052802B19056EA30083A4EF /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1052802919056EA30083A4EF /* logo@2x.png */; };
+		1053319219074F3D001597D2 /* UIHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1053319119074F3D001597D2 /* UIHighlightButton.m */; };
 		106E9126190692A6007E7C2F /* UserHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 106E9125190692A6007E7C2F /* UserHandler.m */; };
 		106E912F1907322E007E7C2F /* PooleListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106E912E1907322E007E7C2F /* PooleListingViewController.m */; };
-		107FDC9719074A81002C37FA /* UIHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 107FDC9619074A81002C37FA /* UIHighlightButton.m */; };
 		107FDC9A19074E69002C37FA /* cog.png in Resources */ = {isa = PBXBuildFile; fileRef = 107FDC9819074E69002C37FA /* cog.png */; };
 		107FDC9B19074E69002C37FA /* cog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107FDC9919074E69002C37FA /* cog@2x.png */; };
 		10977489190439A4008A7101 /* Museo-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10977486190439A4008A7101 /* Museo-heavy.otf */; };
@@ -57,12 +57,12 @@
 		105280251904E17B0083A4EF /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
 		1052802819056EA30083A4EF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		1052802919056EA30083A4EF /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		1053319019074F3D001597D2 /* UIHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHighlightButton.h; sourceTree = "<group>"; };
+		1053319119074F3D001597D2 /* UIHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHighlightButton.m; sourceTree = "<group>"; };
 		106E9124190692A6007E7C2F /* UserHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHandler.h; sourceTree = "<group>"; };
 		106E9125190692A6007E7C2F /* UserHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHandler.m; sourceTree = "<group>"; };
 		106E912D1907322E007E7C2F /* PooleListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooleListingViewController.h; sourceTree = "<group>"; };
 		106E912E1907322E007E7C2F /* PooleListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooleListingViewController.m; sourceTree = "<group>"; };
-		107FDC9519074A81002C37FA /* UIHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIHighlightButton.h; path = ../UIHighlightButton.h; sourceTree = "<group>"; };
-		107FDC9619074A81002C37FA /* UIHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIHighlightButton.m; path = ../UIHighlightButton.m; sourceTree = "<group>"; };
 		107FDC9819074E69002C37FA /* cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog.png; sourceTree = "<group>"; };
 		107FDC9919074E69002C37FA /* cog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog@2x.png"; sourceTree = "<group>"; };
 		10977486190439A4008A7101 /* Museo-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo-heavy.otf"; sourceTree = "<group>"; };
@@ -172,8 +172,8 @@
 		10A7F4121901C5F600437774 /* Geopoole */ = {
 			isa = PBXGroup;
 			children = (
-				107FDC9519074A81002C37FA /* UIHighlightButton.h */,
-				107FDC9619074A81002C37FA /* UIHighlightButton.m */,
+				1053319019074F3D001597D2 /* UIHighlightButton.h */,
+				1053319119074F3D001597D2 /* UIHighlightButton.m */,
 				106E912D1907322E007E7C2F /* PooleListingViewController.h */,
 				106E912E1907322E007E7C2F /* PooleListingViewController.m */,
 				105280241904E17B0083A4EF /* SplashScreenViewController.h */,
@@ -338,8 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				107FDC9719074A81002C37FA /* UIHighlightButton.m in Sources */,
 				106E9126190692A6007E7C2F /* UserHandler.m in Sources */,
+				1053319219074F3D001597D2 /* UIHighlightButton.m in Sources */,
 				10A7F41D1901C5F600437774 /* AppDelegate.m in Sources */,
 				105280201904E1650083A4EF /* MapViewController.m in Sources */,
 				106E912F1907322E007E7C2F /* PooleListingViewController.m in Sources */,

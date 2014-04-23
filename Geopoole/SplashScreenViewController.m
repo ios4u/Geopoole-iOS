@@ -52,12 +52,37 @@
 
 - (void)loginViewShowingLoggedInUser:(FBLoginView *)loginView {
     //Update UI for login
-    [self performSelector:@selector(loggedInSegue) withObject:nil afterDelay:0.5];
+    [self performSelector:@selector(loggedInSegue) withObject:nil afterDelay:1];
 }
 
 - (void)loggedInSegue {
     //Segue method for performSelector method
     [self performSegueWithIdentifier: @"fromSplash" sender: self];
+}
+
+//Handle login errors
+- (void)loginView:(FBLoginView *)loginView handleError:(NSError *)error {
+    NSString *alertMessage, *alertTitle;
+    if ([FBErrorUtility shouldNotifyUserForError:error]) {
+        alertTitle = @"Facebook error";
+        alertMessage = [FBErrorUtility userMessageForError:error];
+    } else if ([FBErrorUtility errorCategoryForError:error] == FBErrorCategoryAuthenticationReopenSession) {
+        alertTitle = @"Session Error";
+        alertMessage = @"Your current session is no longer valid. Please log in again.";
+    } else if ([FBErrorUtility errorCategoryForError:error] == FBErrorCategoryUserCancelled) {
+        NSLog(@"user cancelled login");
+    } else {
+        alertTitle = @"Something went wrong";
+        alertMessage = @"Please try again later.";
+        NSLog(@"Unexpected error:%@", error);
+    }
+    if (alertMessage) {
+        [[[UIAlertView alloc] initWithTitle:alertTitle
+                                    message:alertMessage
+                                   delegate:nil
+                          cancelButtonTitle:@"OK"
+                          otherButtonTitles:nil] show];
+    }
 }
 
 - (void)didReceiveMemoryWarning
