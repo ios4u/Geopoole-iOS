@@ -28,7 +28,7 @@
 
 - (void)logout {
     self.isLoggedIn = NO;
-    [self.userDetails removeAllObjects];
+    self.userDetails = nil;
 }
 
 @end
